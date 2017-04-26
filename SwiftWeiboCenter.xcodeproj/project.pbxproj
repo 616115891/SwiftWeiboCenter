@@ -14,6 +14,50 @@
 		98124AE81EB0361F00FAB844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98124AE61EB0361F00FAB844 /* LaunchScreen.storyboard */; };
 		98124AF31EB0361F00FAB844 /* SwiftWeiboCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124AF21EB0361F00FAB844 /* SwiftWeiboCenterTests.swift */; };
 		98124AFE1EB0361F00FAB844 /* SwiftWeiboCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124AFD1EB0361F00FAB844 /* SwiftWeiboCenterUITests.swift */; };
+		98124B0E1EB0368500FAB844 /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98124B0D1EB0368500FAB844 /* HFStretchableTableHeaderView.m */; };
+		98124B121EB0395C00FAB844 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B111EB0395C00FAB844 /* BaseTableViewController.swift */; };
+		98124B141EB03C5E00FAB844 /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B131EB03C5E00FAB844 /* LeftTableViewController.swift */; };
+		98124B161EB03CB300FAB844 /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B151EB03CB300FAB844 /* MiddleViewController.swift */; };
+		98124B181EB03CBD00FAB844 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B171EB03CBD00FAB844 /* RightViewController.swift */; };
+		98124B1A1EB03DF800FAB844 /* PersonTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B191EB03DF800FAB844 /* PersonTableView.swift */; };
+		98124B1C1EB03E4100FAB844 /* PersonCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B1B1EB03E4100FAB844 /* PersonCenterViewController.swift */; };
+		98124B1E1EB03F6300FAB844 /* UserHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B1D1EB03F6300FAB844 /* UserHeadView.swift */; };
+		98124B201EB03F6F00FAB844 /* UserHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98124B1F1EB03F6F00FAB844 /* UserHeadView.xib */; };
+		98124B291EB0419600FAB844 /* YUMixtureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98124B241EB0419600FAB844 /* YUMixtureView.m */; };
+		98124B2A1EB0419600FAB844 /* YUSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 98124B261EB0419600FAB844 /* YUSegment.m */; };
+		98124B2E1EB043A200FAB844 /* ContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B2D1EB043A200FAB844 /* ContentViewCell.swift */; };
+		98124B511EB047CF00FAB844 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B301EB047CF00FAB844 /* Constraint.swift */; };
+		98124B521EB047CF00FAB844 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B311EB047CF00FAB844 /* ConstraintAttributes.swift */; };
+		98124B531EB047CF00FAB844 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B321EB047CF00FAB844 /* ConstraintConfig.swift */; };
+		98124B541EB047CF00FAB844 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B331EB047CF00FAB844 /* ConstraintConstantTarget.swift */; };
+		98124B551EB047CF00FAB844 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B341EB047CF00FAB844 /* ConstraintDescription.swift */; };
+		98124B561EB047CF00FAB844 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B351EB047CF00FAB844 /* ConstraintDSL.swift */; };
+		98124B571EB047CF00FAB844 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B361EB047CF00FAB844 /* ConstraintInsets.swift */; };
+		98124B581EB047CF00FAB844 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B371EB047CF00FAB844 /* ConstraintInsetTarget.swift */; };
+		98124B591EB047CF00FAB844 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B381EB047CF00FAB844 /* ConstraintItem.swift */; };
+		98124B5A1EB047CF00FAB844 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B391EB047CF00FAB844 /* ConstraintLayoutGuide+Extensions.swift */; };
+		98124B5B1EB047CF00FAB844 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B3A1EB047CF00FAB844 /* ConstraintLayoutGuide.swift */; };
+		98124B5C1EB047CF00FAB844 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B3B1EB047CF00FAB844 /* ConstraintLayoutGuideDSL.swift */; };
+		98124B5D1EB047CF00FAB844 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B3C1EB047CF00FAB844 /* ConstraintLayoutSupport.swift */; };
+		98124B5E1EB047CF00FAB844 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B3D1EB047CF00FAB844 /* ConstraintLayoutSupportDSL.swift */; };
+		98124B5F1EB047CF00FAB844 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B3E1EB047CF00FAB844 /* ConstraintMaker.swift */; };
+		98124B601EB047CF00FAB844 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B3F1EB047CF00FAB844 /* ConstraintMakerEditable.swift */; };
+		98124B611EB047CF00FAB844 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B401EB047CF00FAB844 /* ConstraintMakerExtendable.swift */; };
+		98124B621EB047CF00FAB844 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B411EB047CF00FAB844 /* ConstraintMakerFinalizable.swift */; };
+		98124B631EB047CF00FAB844 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B421EB047CF00FAB844 /* ConstraintMakerPriortizable.swift */; };
+		98124B641EB047CF00FAB844 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B431EB047CF00FAB844 /* ConstraintMakerRelatable.swift */; };
+		98124B651EB047CF00FAB844 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B441EB047CF00FAB844 /* ConstraintMultiplierTarget.swift */; };
+		98124B661EB047CF00FAB844 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B451EB047CF00FAB844 /* ConstraintOffsetTarget.swift */; };
+		98124B671EB047CF00FAB844 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B461EB047CF00FAB844 /* ConstraintPriorityTarget.swift */; };
+		98124B681EB047CF00FAB844 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B471EB047CF00FAB844 /* ConstraintRelatableTarget.swift */; };
+		98124B691EB047CF00FAB844 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B481EB047CF00FAB844 /* ConstraintRelation.swift */; };
+		98124B6A1EB047CF00FAB844 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B491EB047CF00FAB844 /* ConstraintView+Extensions.swift */; };
+		98124B6B1EB047CF00FAB844 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B4A1EB047CF00FAB844 /* ConstraintView.swift */; };
+		98124B6C1EB047CF00FAB844 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B4B1EB047CF00FAB844 /* ConstraintViewDSL.swift */; };
+		98124B6D1EB047CF00FAB844 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B4C1EB047CF00FAB844 /* Debugging.swift */; };
+		98124B6E1EB047CF00FAB844 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B4D1EB047CF00FAB844 /* LayoutConstraint.swift */; };
+		98124B6F1EB047CF00FAB844 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B4E1EB047CF00FAB844 /* LayoutConstraintItem.swift */; };
+		98124B701EB047CF00FAB844 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98124B501EB047CF00FAB844 /* UILayoutSupport+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +91,55 @@
 		98124AF91EB0361F00FAB844 /* SwiftWeiboCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWeiboCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98124AFD1EB0361F00FAB844 /* SwiftWeiboCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWeiboCenterUITests.swift; sourceTree = "<group>"; };
 		98124AFF1EB0361F00FAB844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98124B0B1EB0368500FAB844 /* SwiftWeiboCenter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftWeiboCenter-Bridging-Header.h"; sourceTree = "<group>"; };
+		98124B0C1EB0368500FAB844 /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
+		98124B0D1EB0368500FAB844 /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
+		98124B111EB0395C00FAB844 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		98124B131EB03C5E00FAB844 /* LeftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
+		98124B151EB03CB300FAB844 /* MiddleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		98124B171EB03CBD00FAB844 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		98124B191EB03DF800FAB844 /* PersonTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableView.swift; sourceTree = "<group>"; };
+		98124B1B1EB03E4100FAB844 /* PersonCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCenterViewController.swift; sourceTree = "<group>"; };
+		98124B1D1EB03F6300FAB844 /* UserHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHeadView.swift; sourceTree = "<group>"; };
+		98124B1F1EB03F6F00FAB844 /* UserHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserHeadView.xib; sourceTree = "<group>"; };
+		98124B231EB0419600FAB844 /* YUMixtureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUMixtureView.h; sourceTree = "<group>"; };
+		98124B241EB0419600FAB844 /* YUMixtureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUMixtureView.m; sourceTree = "<group>"; };
+		98124B251EB0419600FAB844 /* YUSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUSegment.h; sourceTree = "<group>"; };
+		98124B261EB0419600FAB844 /* YUSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUSegment.m; sourceTree = "<group>"; };
+		98124B2D1EB043A200FAB844 /* ContentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewCell.swift; sourceTree = "<group>"; };
+		98124B301EB047CF00FAB844 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		98124B311EB047CF00FAB844 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		98124B321EB047CF00FAB844 /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		98124B331EB047CF00FAB844 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		98124B341EB047CF00FAB844 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		98124B351EB047CF00FAB844 /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		98124B361EB047CF00FAB844 /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		98124B371EB047CF00FAB844 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		98124B381EB047CF00FAB844 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		98124B391EB047CF00FAB844 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		98124B3A1EB047CF00FAB844 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		98124B3B1EB047CF00FAB844 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		98124B3C1EB047CF00FAB844 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		98124B3D1EB047CF00FAB844 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		98124B3E1EB047CF00FAB844 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		98124B3F1EB047CF00FAB844 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		98124B401EB047CF00FAB844 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		98124B411EB047CF00FAB844 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		98124B421EB047CF00FAB844 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		98124B431EB047CF00FAB844 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		98124B441EB047CF00FAB844 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		98124B451EB047CF00FAB844 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		98124B461EB047CF00FAB844 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		98124B471EB047CF00FAB844 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		98124B481EB047CF00FAB844 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		98124B491EB047CF00FAB844 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		98124B4A1EB047CF00FAB844 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		98124B4B1EB047CF00FAB844 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		98124B4C1EB047CF00FAB844 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		98124B4D1EB047CF00FAB844 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		98124B4E1EB047CF00FAB844 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		98124B4F1EB047CF00FAB844 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		98124B501EB047CF00FAB844 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +190,26 @@
 		98124ADC1EB0361F00FAB844 /* SwiftWeiboCenter */ = {
 			isa = PBXGroup;
 			children = (
+				98124B2F1EB047CF00FAB844 /* SnapKit */,
 				98124ADD1EB0361F00FAB844 /* AppDelegate.swift */,
 				98124ADF1EB0361F00FAB844 /* ViewController.swift */,
+				98124B191EB03DF800FAB844 /* PersonTableView.swift */,
+				98124B1B1EB03E4100FAB844 /* PersonCenterViewController.swift */,
+				98124B2D1EB043A200FAB844 /* ContentViewCell.swift */,
+				98124B111EB0395C00FAB844 /* BaseTableViewController.swift */,
+				98124B131EB03C5E00FAB844 /* LeftTableViewController.swift */,
+				98124B151EB03CB300FAB844 /* MiddleViewController.swift */,
+				98124B171EB03CBD00FAB844 /* RightViewController.swift */,
 				98124AE11EB0361F00FAB844 /* Main.storyboard */,
+				98124B0C1EB0368500FAB844 /* HFStretchableTableHeaderView.h */,
+				98124B0D1EB0368500FAB844 /* HFStretchableTableHeaderView.m */,
+				98124B1D1EB03F6300FAB844 /* UserHeadView.swift */,
+				98124B1F1EB03F6F00FAB844 /* UserHeadView.xib */,
 				98124AE41EB0361F00FAB844 /* Assets.xcassets */,
 				98124AE61EB0361F00FAB844 /* LaunchScreen.storyboard */,
 				98124AE91EB0361F00FAB844 /* Info.plist */,
+				98124B211EB0419600FAB844 /* YUSegment */,
+				98124B0B1EB0368500FAB844 /* SwiftWeiboCenter-Bridging-Header.h */,
 			);
 			path = SwiftWeiboCenter;
 			sourceTree = "<group>";
@@ -123,6 +230,65 @@
 				98124AFF1EB0361F00FAB844 /* Info.plist */,
 			);
 			path = SwiftWeiboCenterUITests;
+			sourceTree = "<group>";
+		};
+		98124B211EB0419600FAB844 /* YUSegment */ = {
+			isa = PBXGroup;
+			children = (
+				98124B221EB0419600FAB844 /* Classes */,
+			);
+			path = YUSegment;
+			sourceTree = "<group>";
+		};
+		98124B221EB0419600FAB844 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98124B231EB0419600FAB844 /* YUMixtureView.h */,
+				98124B241EB0419600FAB844 /* YUMixtureView.m */,
+				98124B251EB0419600FAB844 /* YUSegment.h */,
+				98124B261EB0419600FAB844 /* YUSegment.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		98124B2F1EB047CF00FAB844 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				98124B301EB047CF00FAB844 /* Constraint.swift */,
+				98124B311EB047CF00FAB844 /* ConstraintAttributes.swift */,
+				98124B321EB047CF00FAB844 /* ConstraintConfig.swift */,
+				98124B331EB047CF00FAB844 /* ConstraintConstantTarget.swift */,
+				98124B341EB047CF00FAB844 /* ConstraintDescription.swift */,
+				98124B351EB047CF00FAB844 /* ConstraintDSL.swift */,
+				98124B361EB047CF00FAB844 /* ConstraintInsets.swift */,
+				98124B371EB047CF00FAB844 /* ConstraintInsetTarget.swift */,
+				98124B381EB047CF00FAB844 /* ConstraintItem.swift */,
+				98124B391EB047CF00FAB844 /* ConstraintLayoutGuide+Extensions.swift */,
+				98124B3A1EB047CF00FAB844 /* ConstraintLayoutGuide.swift */,
+				98124B3B1EB047CF00FAB844 /* ConstraintLayoutGuideDSL.swift */,
+				98124B3C1EB047CF00FAB844 /* ConstraintLayoutSupport.swift */,
+				98124B3D1EB047CF00FAB844 /* ConstraintLayoutSupportDSL.swift */,
+				98124B3E1EB047CF00FAB844 /* ConstraintMaker.swift */,
+				98124B3F1EB047CF00FAB844 /* ConstraintMakerEditable.swift */,
+				98124B401EB047CF00FAB844 /* ConstraintMakerExtendable.swift */,
+				98124B411EB047CF00FAB844 /* ConstraintMakerFinalizable.swift */,
+				98124B421EB047CF00FAB844 /* ConstraintMakerPriortizable.swift */,
+				98124B431EB047CF00FAB844 /* ConstraintMakerRelatable.swift */,
+				98124B441EB047CF00FAB844 /* ConstraintMultiplierTarget.swift */,
+				98124B451EB047CF00FAB844 /* ConstraintOffsetTarget.swift */,
+				98124B461EB047CF00FAB844 /* ConstraintPriorityTarget.swift */,
+				98124B471EB047CF00FAB844 /* ConstraintRelatableTarget.swift */,
+				98124B481EB047CF00FAB844 /* ConstraintRelation.swift */,
+				98124B491EB047CF00FAB844 /* ConstraintView+Extensions.swift */,
+				98124B4A1EB047CF00FAB844 /* ConstraintView.swift */,
+				98124B4B1EB047CF00FAB844 /* ConstraintViewDSL.swift */,
+				98124B4C1EB047CF00FAB844 /* Debugging.swift */,
+				98124B4D1EB047CF00FAB844 /* LayoutConstraint.swift */,
+				98124B4E1EB047CF00FAB844 /* LayoutConstraintItem.swift */,
+				98124B4F1EB047CF00FAB844 /* SnapKit.h */,
+				98124B501EB047CF00FAB844 /* UILayoutSupport+Extensions.swift */,
+			);
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +359,8 @@
 				TargetAttributes = {
 					98124AD91EB0361F00FAB844 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = VH4ZU5QAW5;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					98124AED1EB0361F00FAB844 = {
@@ -233,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98124AE81EB0361F00FAB844 /* LaunchScreen.storyboard in Resources */,
+				98124B201EB03F6F00FAB844 /* UserHeadView.xib in Resources */,
 				98124AE51EB0361F00FAB844 /* Assets.xcassets in Resources */,
 				98124AE31EB0361F00FAB844 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +428,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98124B701EB047CF00FAB844 /* UILayoutSupport+Extensions.swift in Sources */,
+				98124B5C1EB047CF00FAB844 /* ConstraintLayoutGuideDSL.swift in Sources */,
 				98124AE01EB0361F00FAB844 /* ViewController.swift in Sources */,
+				98124B6E1EB047CF00FAB844 /* LayoutConstraint.swift in Sources */,
+				98124B6A1EB047CF00FAB844 /* ConstraintView+Extensions.swift in Sources */,
+				98124B181EB03CBD00FAB844 /* RightViewController.swift in Sources */,
+				98124B511EB047CF00FAB844 /* Constraint.swift in Sources */,
+				98124B691EB047CF00FAB844 /* ConstraintRelation.swift in Sources */,
+				98124B521EB047CF00FAB844 /* ConstraintAttributes.swift in Sources */,
+				98124B561EB047CF00FAB844 /* ConstraintDSL.swift in Sources */,
+				98124B5D1EB047CF00FAB844 /* ConstraintLayoutSupport.swift in Sources */,
+				98124B671EB047CF00FAB844 /* ConstraintPriorityTarget.swift in Sources */,
+				98124B1A1EB03DF800FAB844 /* PersonTableView.swift in Sources */,
+				98124B0E1EB0368500FAB844 /* HFStretchableTableHeaderView.m in Sources */,
+				98124B5F1EB047CF00FAB844 /* ConstraintMaker.swift in Sources */,
+				98124B2E1EB043A200FAB844 /* ContentViewCell.swift in Sources */,
+				98124B571EB047CF00FAB844 /* ConstraintInsets.swift in Sources */,
+				98124B6B1EB047CF00FAB844 /* ConstraintView.swift in Sources */,
+				98124B1C1EB03E4100FAB844 /* PersonCenterViewController.swift in Sources */,
+				98124B6C1EB047CF00FAB844 /* ConstraintViewDSL.swift in Sources */,
+				98124B121EB0395C00FAB844 /* BaseTableViewController.swift in Sources */,
+				98124B141EB03C5E00FAB844 /* LeftTableViewController.swift in Sources */,
+				98124B661EB047CF00FAB844 /* ConstraintOffsetTarget.swift in Sources */,
+				98124B2A1EB0419600FAB844 /* YUSegment.m in Sources */,
+				98124B6D1EB047CF00FAB844 /* Debugging.swift in Sources */,
+				98124B581EB047CF00FAB844 /* ConstraintInsetTarget.swift in Sources */,
+				98124B641EB047CF00FAB844 /* ConstraintMakerRelatable.swift in Sources */,
+				98124B5A1EB047CF00FAB844 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				98124B621EB047CF00FAB844 /* ConstraintMakerFinalizable.swift in Sources */,
+				98124B5E1EB047CF00FAB844 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				98124B5B1EB047CF00FAB844 /* ConstraintLayoutGuide.swift in Sources */,
+				98124B161EB03CB300FAB844 /* MiddleViewController.swift in Sources */,
+				98124B591EB047CF00FAB844 /* ConstraintItem.swift in Sources */,
+				98124B651EB047CF00FAB844 /* ConstraintMultiplierTarget.swift in Sources */,
+				98124B531EB047CF00FAB844 /* ConstraintConfig.swift in Sources */,
+				98124B631EB047CF00FAB844 /* ConstraintMakerPriortizable.swift in Sources */,
+				98124B6F1EB047CF00FAB844 /* LayoutConstraintItem.swift in Sources */,
+				98124B681EB047CF00FAB844 /* ConstraintRelatableTarget.swift in Sources */,
+				98124B611EB047CF00FAB844 /* ConstraintMakerExtendable.swift in Sources */,
 				98124ADE1EB0361F00FAB844 /* AppDelegate.swift in Sources */,
+				98124B1E1EB03F6300FAB844 /* UserHeadView.swift in Sources */,
+				98124B291EB0419600FAB844 /* YUMixtureView.m in Sources */,
+				98124B541EB047CF00FAB844 /* ConstraintConstantTarget.swift in Sources */,
+				98124B601EB047CF00FAB844 /* ConstraintMakerEditable.swift in Sources */,
+				98124B551EB047CF00FAB844 /* ConstraintDescription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +626,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = VH4ZU5QAW5;
 				INFOPLIST_FILE = SwiftWeiboCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Keyon.SwiftWeiboCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftWeiboCenter/SwiftWeiboCenter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +642,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = VH4ZU5QAW5;
 				INFOPLIST_FILE = SwiftWeiboCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Keyon.SwiftWeiboCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftWeiboCenter/SwiftWeiboCenter-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
